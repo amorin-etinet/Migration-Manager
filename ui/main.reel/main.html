@@ -13,13 +13,11 @@
                 "element": {"#": "main"}
             }
         },
-        "listItem": {
-            "prototype": "digit/ui/list-item.reel",
+        "title": {
+            "prototype": "digit/ui/title.reel",
             "properties": {
-                "element": {"#": "listItem"},
-                "contenteditable": "true",
-                "dir": "ltr",
-                "draggable": "true"
+                "element": {"#": "title"},
+                "value": "Tasks"
             }
         }
     }
@@ -27,7 +25,7 @@
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
-        <li data-montage-id="listItem" data-arg="wewe" data-param="1212"></li>
+        <h1 data-montage-id="title"></h1>
     </div>
 </body>
 </html>
